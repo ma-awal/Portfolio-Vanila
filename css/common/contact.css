@@ -1,0 +1,66 @@
+/* contact */
+.contact{
+   min-height:min-content
+   
+}
+.contact .row .box{
+   background: var(--background);
+    min-height: 150px;
+    max-width: 1140px;
+    max-height: 40vh;
+    margin: auto;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact .box h3{
+   font-size: 18px;
+   font-weight:600;
+   letter-spacing: 2px;
+}
+.contact p{
+   font-size: 12px;
+
+}
+ 
+@media (min-width:576px) {
+   .contact .box h3{
+   font-size: 22px; 
+}
+.contact p{
+   font-size: 14px;
+
+}
+
+.contact .row .box{
+    min-height: 200px;
+     
+}
+
+}
+
+@media (min-width:768px) {
+   .contact .box h3{
+      font-size: 28px; 
+   }
+   .contact .row .box{
+       min-height: 250px;
+        
+   }
+    
+}
+@media (min-width:992px) {
+   .contact .box h3{
+      font-size: 42px; 
+   }
+
+   .contact p{
+      font-size: 16px;
+   
+   }
+   .contact .row .box{
+      min-height: 300px;
+       
+  }
+}

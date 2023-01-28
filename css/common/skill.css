@@ -1,0 +1,75 @@
+/* skill */
+.skill{
+   min-height:content;
+}
+.skill .box{
+   background:var(--white3);
+   transition: var(--transition2);
+}
+.skill .skill-info h3{
+   font-size:22px;
+   font-weight: 600
+}
+.skill .skill-info p{
+   font-size:12px;
+    
+}
+.skill .box img{
+   background:var(--white1);
+}
+.skill .box:hover{
+   background: var(--white1);
+   box-shadow:var(--shadow1)
+}
+
+.skill .row .col .box h5{
+   font-size: 10px;
+}
+
+@media (min-width:576px) {
+   .skill .skill-info h3{
+   font-size:24px;
+   
+}
+.skill .skill-info p{
+   font-size:14px;
+   
+}
+.skill .row .col .box h5{
+   font-size: 12px;
+}
+   
+}
+
+@media (min-width:768px) {
+   .skill .skill-info h3{
+   font-size:28px;
+   
+}
+.skill .skill-info p{
+   font-size:14px;
+   
+}
+.skill .row .col .box h5{
+   font-size: 14px;
+}
+}
+
+
+@media (min-width:992px) {
+
+      .skill .skill-info h3{
+   font-size:42px;
+   
+}
+.skill .skill-info p{
+   font-size:16px;
+   
+}
+   .skill{
+     min-height: 85vh;
+   }
+   .skill .row .col .box h5{
+      font-size: 16px;
+   }
+}

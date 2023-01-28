@@ -1,0 +1,164 @@
+
+     /* banner */
+     .banner{
+      min-height: min-content;
+      display: flex;
+      align-items: center;
+     }
+
+      .banner .banner_info h3{
+         position: relative;
+         font-size:14px;    
+      }
+
+      .banner .banner_info h3::after{
+        content:"";
+        width:20%;
+        border:2px solid #407BFF;
+        position: absolute;
+        top:50%;
+        right:0;
+        left:25%; }
+       
+      .banner .name{
+         font-size: 20px;
+      }
+
+      .banner .npart1{
+         color:#407BFF;
+      }
+
+      
+      .banner .btns .btn{
+         background: var(--background);
+         color:var(--white1);
+         font-size:10px;
+         padding:.25rem .5rem;
+         transition: var(--transition); 
+      }
+
+      .banner .name_title{
+         font-size: 14px;
+         color:#407BFF;
+      }
+    
+
+    .banner .btns .btn:hover{
+      background:#FFFFFF!important;
+      color:black;
+      border:2px solid var(--purple)!important;
+      border:var(--border)!important;
+    }
+
+
+     .banner .container .row .image{
+      width:100%;       
+     }
+
+
+     .banner .container .row .image img{
+     width:70%; 
+     max-width: 100%;
+      object-fit: cover;
+   }
+         
+
+
+
+@media (min-width:576px) {
+   .banner .banner_info h3{
+      font-size:20px;
+   }
+      
+   .banner .name{
+      font-size: 28px;
+   }
+
+
+   .banner .name_title{
+      font-size: 20px;
+   
+   }
+
+
+   .banner .btns .btn{
+      font-size: 14px; padding:.4rem  .7rem;
+   }
+
+ 
+ .banner .banner_info h3::after{
+   left:25%
+ }
+ 
+ }
+  
+
+ @media (min-width:768px) {
+   .banner .banner_info h3{
+      font-size:24px;
+   }
+     
+
+   .banner .name{
+      font-size: 38px;
+   }
+
+   .banner .name_title{
+      font-size:18px;
+       
+   }
+
+
+
+   .banner .btns .btn{
+      font-size: 14px;
+      padding:.5rem .9rem;
+   }
+   .banner .banner_info h3::after{
+      left:20%
+
+    }
+
+ }
+
+
+ @media (min-width:992px) {
+   .banner .banner_info h3{
+      font-size:42px;
+   }
+
+   .banner .name{
+      font-size: 60px;
+   }
+
+   .banner .name_title{
+      font-size: 28px;
+       
+   }
+
+
+
+
+   .banner .btns .btn{
+      font-size: var(--para-font);
+      padding-left: .7rem 1.2rem;
+   }
+
+   .banner .container .row .image img{
+    max-width: 50%;
+  }
+  .banner{
+   min-height:75vh ;
+   
+  
+  }
+  .banner .banner_info h3::after{
+   left:23%;
+    
+ }
+
+  
+
+ }
+
+ 
