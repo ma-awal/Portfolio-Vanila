@@ -51,16 +51,7 @@
     }
 
 
-     .banner .container .row .image{
-      width:100%;       
-     }
-
-
-     .banner .container .row .image img{
-     width:70%; 
-     max-width: 100%;
-      object-fit: cover;
-   }
+ 
          
 
 
